@@ -24,17 +24,23 @@ nav {
     font-weight: 800;
     font-size: 45px;
 }
-.section-title{
+
+.section-title {
     font-size: 25px;
     font-weight: bold;
     color: #181818;
 }
-.section-description{
 
-}
-.secondary-background{
+.section-description {}
+
+.secondary-background {
     background-color: #FFF8F3;
 }
+
+.text-center {
+    text-align: center;
+}
+
 /* Navber pages */
 .nav-text {
     list-style: none;
@@ -43,19 +49,19 @@ nav {
 nav ul {
     display: flex;
     align-items: center;
-    
+
 }
 
 nav ul li {
     list-style: none;
     margin-right: 30px;
-    
+
 }
 
 nav li a {
     text-decoration: none;
     font-size: 20px;
-   
+
 }
 
 .dark-color {
@@ -73,47 +79,76 @@ nav li a {
     border: none;
 
 }
+
 /* Header */
-.header{
-    background-image: url("../images/developer.png") , url(../images/header_bg.png);
+.header {
+    background-image: url("../images/developer.png"), url(../images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left , right bottom;
+    background-position: top left, right bottom;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     margin: 0 45px 0 150px;
 }
-.banner-greetings{
+
+.banner-greetings {
     font-size: 35px;
     font-weight: 600;
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 65px;
 }
-.banner-description{
+
+.banner-description {
     font-size: 14px;
 }
-.banner-profile-picture{
+
+.banner-profile-picture {
     background-image: url("");
 }
-.banner-content{
+
+.banner-content {
     max-width: 580px;
-}.about{
+}
+
+.about {
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
     margin-top: 130px;
 }
-.about-items{
+
+.about-items {
     display: flex;
     justify-content: space-between;
 }
+
 /* main style */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.skills{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.skills-container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin-top: 35px;
+}
+.skill{
+box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+border-radius: 5px;
+background-color: rgb(255, 255, 255);
+width: 200px;
+height: 320px;
 
 }
